@@ -1,5 +1,26 @@
-# captureEcran29032025
-ceci est un script de capture d'ecran automatisé en python,il a été testé et est fonctionnel...
+# Capture d'Écran Automatisée
+
+Ce projet est un script Python qui utilise la bibliothèque `pyautogui` pour prendre des captures d'écran automatiquement à intervalles réguliers. Les captures sont sauvegardées dans un dossier spécifié.
+
+## Fonctionnalités
+
+- **Captures d'écran automatiques** : Prend des captures toutes les 5 secondes.
+- **Nom de fichier horodaté** : Les fichiers sont nommés avec un horodatage pour éviter les collisions.
+- **Dossier de sauvegarde** : Crée un dossier pour stocker les captures si celui-ci n'existe pas.
+
+## Prérequis
+
+- Python 3.x
+- Bibliothèque `pyautogui`
+
+## Installation
+
+1. Assurez-vous d'avoir Python installé sur votre machine.
+2. Installez `pyautogui` :
+   ```bash
+   pip install pyautogui
+
+
 CORRECTION ERREURs POSSIBLEs:
 ➡️ 1. Installe Pillow
 Installe Pillow directement dans ton environnement virtuel :
